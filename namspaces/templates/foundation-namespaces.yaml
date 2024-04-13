@@ -6,3 +6,10 @@ spec:
   finalizers:
     - kubernetes
 ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team-blue
+  finalizers:
+    - kubernetes
+---
