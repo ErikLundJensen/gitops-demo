@@ -9,6 +9,6 @@ metadata:
     managed-by: argocd.argoproj.io
 stringData:
   project: default
-  type: helm
+  type: git
   url: "https://github.com/ErikLundJensen/gitops-demo.git"
 type: Opaque

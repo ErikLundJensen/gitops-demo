@@ -13,7 +13,7 @@ https://argocd.localhost.lund.ai:8080/
 
 
 Add Repo:
-kubectl apply -f ~/demo/2024april/kind-demo/gitops/bootstrap/repo.yaml -n argocd
+kubectl apply -f ~/demo/2024april/kind-demo/gitops-demo/bootstrap/repo.yaml -n argocd
 
 Create ApplicationSet
 kubectl apply -f ~/demo/2024april/kind-demo/gitops/bootstrap/applicationset.yaml -n argocd
