@@ -17,3 +17,4 @@ kubectl apply -f ~/demo/2024april/kind-demo/gitops-demo/bootstrap/repo.yaml -n a
 
 ## Create ApplicationSet
 kubectl apply -f ~/demo/2024april/kind-demo/gitops-demo/bootstrap/applicationset.yaml -n argocd
+
