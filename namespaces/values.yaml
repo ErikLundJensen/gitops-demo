@@ -1,0 +1,4 @@
+namespaces:
+- name: monitoring
+- name: team-blue
+- name: team-green
