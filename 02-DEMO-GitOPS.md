@@ -1,5 +1,10 @@
 # gitops-demo
 
+## Speed up loading of image
+kind load docker-image quay.io/argoproj/argocd:v2.10.4 --name local
+
+
+## Create namespace
 kubectl create namespace argocd
 
 helm install argocd argo/argo-cd --namespace argocd
